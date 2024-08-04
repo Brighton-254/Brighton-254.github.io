@@ -1,0 +1,185 @@
+header {
+    font-display: black;
+    background-color: #06c5ff;
+    color:rgb(12, 12, 11);
+    text-align:center;
+    padding:1rem 0;
+       }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(32, 100, 178);
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("../../media/examples/lizard.png");
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background: linear-gradient(135deg, #1e163d 0%, #b407ac 25%, #2f0dca 50%, #e60da8 75%, #072136 100%);
+    overflow: hidden;
+    position: left;
+    margin: 05;
+    width: 100%;
+    height: 100%;
+    align-content: vertical;
+}
+
+h1 {
+    font-size: xx-large;
+    color: rgb(13, 13, 22);
+    text-align: center;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    border-top: 2mm;
+    font-stretch: normal;
+    font-size: 12;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 01;
+    padding: 3;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-display: blue;
+    -webkit-flow-into: inherit;
+    max-width: 600px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #15046433;
+}
+main {
+    padding: 2rem;
+}
+
+h2 {
+    color:red;
+}
+
+p {
+    line-height: 1.6;
+}
+
+@media screen and (orientation: portrait) {}
+    body {
+      width: 100vw;
+      height: 100vh;
+      transform: rotate(360deg);
+}
+
+    .neon-text {
+            position: absolute;
+            top: 50%;
+                 left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 4em;
+                color: #fff;
+             text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff;
+    animation: neon 1.5s infinite alternate;
+               }
+            /* Main Content Styles */
+        main {
+            padding: 2rem;
+        }
+
+        h2 {
+            color:red;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: blue;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        .container h2 {
+            margin-bottom: 20px;
+        }
+        .container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .container button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .signup {
+            background-color: #008CBA;
+            color: white;
+        }
+        .container .btn:hover {
+            opacity: 0.8;
+        }
+        .toggle-btns {
+            display: flex;
+            justify-content: space-between;
+        }
+        .scroll-container {
+            width: 300px; /* Set the width of the container */
+            height: 200px; /* Set the height of the container */
+            overflow-y: scroll vertical; /* Enable vertical scrolling */
+            border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+            padding: 10px; /* Optional: Add some padding */
+        }
+        /* Custom scrollbar for WebKit browsers */
+        .scroll-container::-webkit-scrollbar {
+            width: 10px; /* Width of the scrollbar */
+        }
+
+        .scroll-container::-webkit-scrollbar-track {
+            background: #f1f1f1; /* Background of the scrollbar track */
+        }
+
+        .scroll-container::-webkit-scrollbar-thumb {
+            background: #888; /* Color of the scrollbar handle */
+        }
+
+        .scroll-container::-webkit-scrollbar-thumb:hover {
+            background: #555; /* Color of the scrollbar handle on hover */
+        }

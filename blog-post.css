@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                            url("../../media/examples/lizard.png");
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background: linear-gradient(135deg, #1e163d 0%, #b407ac 25%, #2f0dca 50%, #e60da8 75%, #072136 100%);
+    margin: 0;
+    padding: 0;
+}
+
+blog-container {
+    display: hidden;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 150;
+    height: 200;
+
+}
+
+.blog-post {
+    background-color: #4715d1;
+    border: 1px solid hsl(202, 91%, 25%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: calc(33.333% - 40px);
+
+  
+}
+
+.blog-post h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    line-height: 1.6;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 150px) {
+    .blog-post {
+        width: calc(50% - 40px);
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .blog-post {
+        width: 100%;
+    }
+}

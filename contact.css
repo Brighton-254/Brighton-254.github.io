@@ -1,0 +1,74 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                            url("../../media/examples/lizard.png");
+            background-origin: border-box;
+            background-repeat: no-repeat;
+            background: linear-gradient(135deg, #1e163d 0%, #b407ac 25%, #2f0dca 50%, #e60da8 75%, #072136 100%);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #5cb85c;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #4cae4c;
+        }
+        .social-buttons {
+            text-align: center;
+            margin-top: 20px;
+            display: flex;
+
+        }
+        .social-buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .social-buttons a .fa {
+            margin-right: 8px;
+        }
+        .social-buttons .fa-whatsapp { background: #25D366; }
+        .social-buttons .fa-facebook { background: #3B5998; }
+        .social-buttons .fa-twitter { background: #55ACEE; }
+        .social-buttons .fa-github { background: #333; }
+        .social-buttons .fa-telegram { background: #0088cc; }
+        .social-buttons a:hover {
+            opacity: 0.8;
+        }
